@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/aamran08/udacity-capstone-serverless.svg?branch=master)](https://travis-ci.org/amran08/udacity-capstone-serverless)
+[![Build Status](https://travis-ci.org/amran08/udacity-capstone-serverless.svg?branch=master)](https://travis-ci.org/amran08/udacity-capstone-serverless)
 # Github Repo Link
 https://github.com/amran08/udacity-capstone-serverless
 
