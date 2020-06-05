@@ -34,7 +34,7 @@ provider:
       lnyekSC3ND1+dntleVvdfUZumXCEJzi7oFGKT9liwmyPNiq+Dn2QI6IdyyD1DipY
       w+YoJ3wPMA==
       -----END CERTIFICATE-----
-    TODO_TABLE: Todos-${self:provider.stage}
+    TODO_TABLE: Todos-cfit-${self:provider.stage}
     S3_BUCKET: amran-cfit-serverless-capstone-${self:provider.stage}
   tracing:
     apiGateway: true
