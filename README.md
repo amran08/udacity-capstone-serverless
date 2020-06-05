@@ -3,6 +3,7 @@
 https://github.com/amran08/udacity-capstone-serverless
 
 # Serverless TODO
+
 This repo implements a simple TODO application using AWS Lambda and Serverless framework.
 
 There are two components of the Project
