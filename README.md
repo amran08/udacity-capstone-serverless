@@ -67,6 +67,11 @@ npm run start
 
 This should start a development server with the React application that will interact with the serverless TODO application.
 
+
+## CI/CD 
+
+Added jeniks file which contains stages of deploying frontend app in S3
+
 # Postman collection
 
 An alternative way to test your API, you can use the Postman collection that contains sample requests. You can find a Postman collection in this project. To import this collection, do the following.
