@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/aamran08/capstone-serveless.svg?branch=master)](https://travis-ci.org/amran08/capstone-serveless)
+[![Build Status](https://travis-ci.org/aamran08/udacity-capstone-serverless.svg?branch=master)](https://travis-ci.org/amran08/udacity-capstone-serverless)
 # Github Repo Link
-https://github.com/amran08/capstone-serveless
+https://github.com/amran08/udacity-capstone-serverless
 # Serverless TODO
 
 This repo implements a simple TODO application using AWS Lambda and Serverless framework.
