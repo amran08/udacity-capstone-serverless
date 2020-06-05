@@ -18,7 +18,7 @@ This application will allow creating/removing/updating/fetching TODO items. Each
 # Backend
 The `backend` folder contains the AWS lamda functions which provide the Serverless Todo API. 
 
-It is built and deployed to AWS using TravisCI on each push to master/dev/test branches
+It is built and deployed to AWS using TravisCI on each push to master/dev/prepod branches
 
 `.travis.yml` is located at the root of the project
 
