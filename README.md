@@ -5,7 +5,7 @@ https://github.com/amran08/udacity-capstone-serverless
 
 # Serverless TODO
 
-This repo implements a simple TODO application using AWS Lambda and Serverless framework.
+This repository implements a simple TODO application using AWS Lambda and Serverless framework.
 
 There are two components of the Project
  - Backend 
@@ -13,7 +13,7 @@ There are two components of the Project
 
 # Functionality of the application
 
-This application will allow creating/removing/updating/fetching TODO items. Each TODO item can optionally have an attachment image. Each user only has access to TODO items that he/she has created.
+This application will allow CRUD actions.Each TODO item can optionally have an attachment image. Each user only has access to TODO items associated to the creator.
 
 # Backend
 The `backend` folder contains the AWS lamda functions which provide the Serverless Todo API. 
@@ -67,7 +67,7 @@ This should start a development server with the React application that will inte
 
 ## CI/CD 
 
-Added jeniks file which contains stages of deploying frontend app in S3
+Added jenkins file which contains stages of deploying frontend app in S3
 
 # Postman collection
 
