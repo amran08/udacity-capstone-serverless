@@ -22,27 +22,22 @@ It is built and deployed to AWS using TravisCI on each push to master/dev/test b
 `.travis.yml` is located at the root of the project
 
 ## Endpoints:
-  * GET - https://{{apiid}}.execute-api.us-east-1.amazonaws.com/prod/todos
-  * POST - https://{{apiid}}.execute-api.us-east-1.amazonaws.com/prod/todos
-  * PATCH - https://{{apiid}}.execute-api.us-east-1.amazonaws.com/prod/todos/{todoId}
-  * DELETE - https://{{apiid}}.execute-api.us-east-1.amazonaws.com/prod/todos/{todoId}
-  * POST - https://{{apiid}}.execute-api.us-east-1.amazonaws.com/prod/todos/{todoId}/attachment
+  * GET - https://{{apiid}}.execute-api.ap-southeast-1.amazonaws.com/prod/todos
+  * POST - https://{{apiid}}.execute-api.ap-southeast-1.amazonaws.com/prod/todos
+  * PATCH - https://{{apiid}}.execute-api.ap-southeast-1.amazonaws.com/prod/todos/{todoId}
+  * DELETE - https://{{apiid}}.execute-api.ap-southeast-1.amazonaws.com/prod/todos/{todoId}
+  * POST - https://{{apiid}}.execute-api.ap-southeast-1.amazonaws.com/prod/todos/{todoId}/attachment
 
 # Frontend
 
 The `client` folder contains a web application that can uses the API for Serverless Todo.
 
-The frontend is deployed to and hosted at AWS S3 using Jenkins.
 The `Jenkinsfile` is located at the project root. 
 This can be configured to be built and deployed on each commit/ pull request using github hooks.
 
-Application URL: http://capstone-serverless-todo-dev.s3-website-us-east-1.amazonaws.com/
-
 ## Authentication
 
-We used auth0 service for authentication
-
-
+We used auth0 for authentication
 
 # How to run the application
 
