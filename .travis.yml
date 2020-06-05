@@ -28,8 +28,8 @@ environments:
     - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY_PRODUCTION}
 
   - &UAT_ENV
-    - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID_UAT}
-    - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY_UAT}
+    - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID_PREPOD}
+    - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY_PREPOD}
 
   - &DEVELOPMENT_ENV
     - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID_DEVELOPMENT}
@@ -49,10 +49,10 @@ jobs:
     # uat branch deploys to the 'uat' stage
     - <<: *DEPLOY_SERVICE_JOB
       name: "Deploy Test Experiences API"
-      if: type = push AND branch = test
+      if: type = push AND branch = prepod
       env:
         - SERVICE_PATH="backend"
-        - STAGE_NAME=uat
+        - STAGE_NAME=prepod
         - *UAT_ENV
 
     # master branch deploys to the 'prod' stage
